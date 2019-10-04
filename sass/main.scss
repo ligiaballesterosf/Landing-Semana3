@@ -1,0 +1,83 @@
+@import 'common/all';
+@import 'sections/hero';
+@import 'components/card';
+
+body {
+    font-family     : 'Lato', sans-serif;
+    background-color: black;
+    color           : $fuente;
+    font-weight     : bold;
+    width           : 100vw;
+    margin          : auto;
+}
+
+header {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+
+}
+
+.linea1 {
+    font-size     : 14px;
+    letter-spacing: 2px;
+
+
+}
+
+.icono {
+    font-size    : 40px;
+    margin       : 10px;
+    border       : 1px solid #F5F5F5;
+    color        : #D8D5D5;
+    opacity      : 0.5;
+    padding      : 3px 40px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+.seccion2 {
+    text-align     : center;
+    width          : 100%;
+    height         : 250px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+
+}
+
+.view {
+    border       : 2px solid white;
+    font-size    : 25px;
+    width        : 97px;
+    margin       : 30px 0px 24px 117px;
+    padding      : 21px;
+    border-radius: 10px 10px 10px 10px;
+    height       : 23px;
+    display      : flex;
+    align-items  : center;
+}
+
+.linea {
+    font-size: 40px;
+
+}
+
+.browse {
+    font-size : 40px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.it1 {
+    background         : url(../img/shoes.jpg);
+    height             : 218px;
+    width              : 248px;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    margin             : auto;
+    background-position: 50% 50%;
+    padding-top        : 25px; margin-top: 10px; margin-top: 66px; display:flex; align-items: flex-start; justify-content: center;
+    font-size: 30px;
+}
