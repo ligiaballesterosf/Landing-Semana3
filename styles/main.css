@@ -29,34 +29,47 @@
 }
 
 .sec {
-  height: 500px;
-  width: 100%;
-  margin: 10px;
+  height: 352px;
+  width: 224px;
+  margin: 10px auto 40px;
 }
 
 .image {
   height: 224px;
   margin: auto;
-  background-position: 50% 50%;
   width: 224px;
-  padding-left: 70px;
+}
+
+.imagecontainer {
+  height: 224px;
+  width: 224px;
 }
 
 .card {
   background-color: white;
   width: 224px;
-  margin: -3px 0px 0px 69px;
-  height: 150px;
-  color: grey;
+  height: 121px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .producto {
   font-size: 106%;
   display: flex;
+  justify-content: space-between;
+  padding: 40px 5px 13px;
 }
 
 .star {
   font-size: 22px;
+  margin: 0px;
+  padding-left: 5px;
+  padding-top: 18px;
+}
+
+.stardos {
+  font-size: 22px;
+  margin: 0px;
+  padding-left: 5px;
 }
 
 body {
@@ -96,13 +109,14 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .view {
   border: 2px solid white;
   font-size: 25px;
   width: 97px;
-  margin: 30px 0px 24px 117px;
+  margin: 30px 0px 24px;
   padding: 21px;
   border-radius: 10px 10px 10px 10px;
   height: 23px;
