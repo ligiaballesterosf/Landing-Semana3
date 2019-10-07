@@ -52,7 +52,7 @@
 
 .textoizq {
   text-align: center;
-  width: 356px;
+  width: 260px;
   font-size: 24px;
   margin: 15px 0px 40px;
   padding: 0px;
@@ -94,10 +94,24 @@
   justify-content: center;
 }
 
+.organiza {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 761px) {
+  .organiza {
+    flex-flow: row wrap;
+    width: 50%;
+    justify-content: center;
+  }
+}
+
 .sec {
   height: 352px;
   width: 224px;
   margin: 10px auto 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .image {
