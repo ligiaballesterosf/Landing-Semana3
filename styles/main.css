@@ -6,11 +6,18 @@
   background-size: cover;
   background-position: 50% 50%;
   display: block;
+  margin: 0px;
+}
+@media (min-width: 761px) {
+  .hero {
+    height: 470px;
+  }
 }
 
 .letras {
   text-align: center;
   line-height: 30px;
+  margin: 0px;
 }
 
 .titulo {
@@ -25,7 +32,66 @@
 .subtitulo {
   font-size: 22px;
   font-style: italic;
-  font-weight: 100;
+}
+
+.marginh3 {
+  margin: 0px;
+}
+
+.izq {
+  height: 295px;
+  width: 35px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0px 138px;
+  margin: 1px 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textoizq {
+  text-align: center;
+  width: 356px;
+  font-size: 24px;
+  margin: 15px 0px 40px;
+  padding: 0px;
+  line-height: 36px;
+}
+
+.der {
+  width: 140px;
+  height: 100px;
+  padding: 50px 118px;
+  line-height: 34px;
+}
+
+.herosepare {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+@media (min-width: 375px) and (max-width: 760px) {
+  .herosepare {
+    display: none;
+  }
+}
+
+.none {
+  display: none;
+}
+
+.viewbu {
+  border: 1px solid white;
+  font-size: 20px;
+  width: 70px;
+  margin: 30px 0px 24px;
+  padding: 21px;
+  border-radius: 5px 5px 5px 5px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sec {
@@ -111,18 +177,17 @@ header {
   width: 100%;
   height: 250px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-
 .view {
-  border: 2px solid white;
+  border: 1px solid white;
   font-size: 25px;
   width: 97px;
   margin: 30px 0px 24px;
   padding: 21px;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 5px 5px 5px 5px;
   height: 23px;
   display: flex;
   align-items: center;
@@ -130,6 +195,12 @@ header {
 
 .linea {
   font-size: 40px;
+}
+@media (min-width: 761px) {
+  .linea {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .browse {
@@ -277,6 +348,27 @@ header {
 
 .top {
   margin-top: 20px;
+}
+
+.iconbottom {
+  font-size: 45px;
+  margin: 20px 1px 100px;
+  height: 100px;
+  width: 100%;
+}
+
+.positionicon1 {
+  display: flex;
+  justify-content: center;
+}
+
+.positionicon2 {
+  display: flex;
+  justify-content: center;
+}
+
+.separationicon {
+  margin: 1px 17px 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
