@@ -49,7 +49,9 @@ header {
     display        : flex;
     justify-content: center;
     align-items    : center;
-    flex-direction: column; @include mobile {}
+    flex-direction : column;
+
+    @include mobile {}
 
 }
 
@@ -66,7 +68,29 @@ header {
 }
 
 .linea {
-    font-size: 40px; @include web{display: flex; flex-direction: row;}
+    font-size: 40px;
+
+    @include web {
+        display       : flex;
+        flex-direction: row;
+    }
+
+}
+
+.boxbrowse {
+    height         : 90px;
+    width          : 50px;
+    text-align     : center;
+    margin         : 15px auto;
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+
+    @include web {
+        width     : 500px;
+        margin-top: 40px;
+
+    }
 
 }
 
@@ -74,6 +98,10 @@ header {
     font-size : 40px;
     text-align: center;
     margin-top: 0;
+
+    @include web {
+        margin-top: 30px;
+    }
 }
 
 
@@ -235,15 +263,38 @@ header {
 
 }
 
-.iconbottom{font-size: 45px; margin: 20px 1px 100px; height: 100px; width: 100%;}
+.iconbottom {
+    font-size: 45px;
+    margin   : 20px 1px 100px;
+    height   : 100px;
+    width    : 100%;
+}
 
-.positionicon1{display: flex; justify-content: center;
+.positionicon1 {
+    display        : flex;
+    justify-content: center;
 
 }
 
-.positionicon2{display: flex; justify-content: center;
+.positionicon2 {
+    display        : flex;
+    justify-content: center;
 
 }
-.separationicon{margin: 1px 17px 20px;
+
+.separationicon {
+    margin: 1px 17px 20px;
+
+}
+
+.cuadrofooter {
+    width: 100%;
+
+    @include web {
+        height        : 400px;
+        display       : flex;
+        flex-direction: column;
+        flex-flow     : column wrap;
+    }
 
 }

@@ -3,15 +3,29 @@
 
 
 
-.organiza{  display: flex; flex-direction: column;
-    @include web {flex-flow: row wrap; width: 50%; justify-content: center;}
+.organiza {
+    display       : flex;
+    flex-direction: column;
+    margin        : 0 auto;
 
+
+    @include web {
+        flex-flow      : row wrap;
+        width          : 70%;
+        justify-content: space-between;
+        padding        : 1px 10px;
+    }
 }
 
 .sec {
-    height: 352px;
-    width : 224px;
-    margin: 10px auto 40px; display: flex; flex-direction: column;
+    height        : 352px;
+    width         : 224px;
+    margin        : 10px auto 40px;
+    display       : flex;
+    flex-direction: column;
+    @include web{height: 300px; width: 340px; 
+
+    }
 
 }
 
@@ -20,11 +34,20 @@
     margin: auto;
     width : 224px;
 
+    @include web {
+        height: 300px;
+        width : 340px;
+
+    }
+
 }
 
 .imagecontainer {
     height: 224px;
-    width : 224px;
+    width : 224px; @include web {height: 280px; width: 340px;
+
+    }
+
 
 }
 
@@ -34,6 +57,12 @@
     height          : 121px;
     color           : rgba(0, 0, 0, 0.5);
 
+    @include web {
+        height: 280px;
+        width : 340px;
+
+    }
+
 }
 
 .producto {
@@ -41,13 +70,14 @@
     display        : flex;
     justify-content: space-between;
     padding        : 40px 5px 13px;
+    @include web {padding: 5px 5px 0px;}
 }
 
 .star {
     font-size   : 22px;
     margin      : 0px;
     padding-left: 5px;
-    padding-top: 18px;
+    padding-top : 18px;
 
 }
 

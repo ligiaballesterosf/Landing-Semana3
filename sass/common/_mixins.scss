@@ -1,12 +1,13 @@
-@mixin mobile{
+@mixin mobile {
 
-    @media (min-width: 375px) and (max-width: 760px) {@content;
-
-        
+    @media (min-width: 375px) and (max-width: 760px) {
+        @content;
     }
 }
 
-@mixin web{
+@mixin web {
 
-    @media (min-width: 761px) {@content;}
+    @media (min-width: 761px) {
+        @content;
+    }
 }
